@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE484AB72CEDBE110091300A /* cvsCodingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE484AB62CEDBE110091300A /* cvsCodingApp.swift */; };
+		BE484AB92CEDBE110091300A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE484AB82CEDBE110091300A /* ContentView.swift */; };
+		BE484ABB2CEDBE140091300A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE484ABA2CEDBE140091300A /* Assets.xcassets */; };
+		BE484ABE2CEDBE140091300A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE484ABD2CEDBE140091300A /* Preview Assets.xcassets */; };
+		BE484AC92CEDBE140091300A /* cvsCodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE484AC82CEDBE140091300A /* cvsCodingTests.swift */; };
+		BE484AE82CEDBFCC0091300A /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE484AE72CEDBFCC0091300A /* Photo.swift */; };
+		BE484AED2CEDC0430091300A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE484AEC2CEDC0430091300A /* DetailView.swift */; };
+		BE484AF22CEDC2070091300A /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE484AF12CEDC2070091300A /* URLImage.swift */; };
+		BE484AF72CEDC27F0091300A /* FlickrFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE484AF62CEDC27F0091300A /* FlickrFeed.swift */; };
+		BE484B012CEE828A0091300A /* FlickrService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE484B002CEE828A0091300A /* FlickrService.swift */; };
+		BE484B052CEE82E30091300A /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE484B042CEE82E30091300A /* PhotoViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE484AC52CEDBE140091300A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE484AAB2CEDBE110091300A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE484AB22CEDBE110091300A;
+			remoteInfo = cvsCoding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE484AB32CEDBE110091300A /* cvsCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cvsCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE484AB62CEDBE110091300A /* cvsCodingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cvsCodingApp.swift; sourceTree = "<group>"; };
+		BE484AB82CEDBE110091300A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE484ABA2CEDBE140091300A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE484ABD2CEDBE140091300A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE484ABF2CEDBE140091300A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE484AC42CEDBE140091300A /* cvsCodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cvsCodingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE484AC82CEDBE140091300A /* cvsCodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cvsCodingTests.swift; sourceTree = "<group>"; };
+		BE484ACA2CEDBE140091300A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE484AE72CEDBFCC0091300A /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		BE484AEC2CEDC0430091300A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BE484AF12CEDC2070091300A /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		BE484AF62CEDC27F0091300A /* FlickrFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrFeed.swift; sourceTree = "<group>"; };
+		BE484B002CEE828A0091300A /* FlickrService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrService.swift; sourceTree = "<group>"; };
+		BE484B042CEE82E30091300A /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE484AB02CEDBE110091300A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE484AC12CEDBE140091300A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE484AAA2CEDBE110091300A = {
+			isa = PBXGroup;
+			children = (
+				BE484AB52CEDBE110091300A /* cvsCoding */,
+				BE484AC72CEDBE140091300A /* cvsCodingTests */,
+				BE484AB42CEDBE110091300A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE484AB42CEDBE110091300A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE484AB32CEDBE110091300A /* cvsCoding.app */,
+				BE484AC42CEDBE140091300A /* cvsCodingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE484AB52CEDBE110091300A /* cvsCoding */ = {
+			isa = PBXGroup;
+			children = (
+				BE484AB62CEDBE110091300A /* cvsCodingApp.swift */,
+				BE484AB82CEDBE110091300A /* ContentView.swift */,
+				BE484ABA2CEDBE140091300A /* Assets.xcassets */,
+				BE484ABF2CEDBE140091300A /* Info.plist */,
+				BE484ABC2CEDBE140091300A /* Preview Content */,
+				BE484AE72CEDBFCC0091300A /* Photo.swift */,
+				BE484AEC2CEDC0430091300A /* DetailView.swift */,
+				BE484AF12CEDC2070091300A /* URLImage.swift */,
+				BE484AF62CEDC27F0091300A /* FlickrFeed.swift */,
+				BE484B002CEE828A0091300A /* FlickrService.swift */,
+				BE484B042CEE82E30091300A /* PhotoViewModel.swift */,
+			);
+			path = cvsCoding;
+			sourceTree = "<group>";
+		};
+		BE484ABC2CEDBE140091300A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE484ABD2CEDBE140091300A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE484AC72CEDBE140091300A /* cvsCodingTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE484AC82CEDBE140091300A /* cvsCodingTests.swift */,
+				BE484ACA2CEDBE140091300A /* Info.plist */,
+			);
+			path = cvsCodingTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE484AB22CEDBE110091300A /* cvsCoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE484AD82CEDBE140091300A /* Build configuration list for PBXNativeTarget "cvsCoding" */;
+			buildPhases = (
+				BE484AAF2CEDBE110091300A /* Sources */,
+				BE484AB02CEDBE110091300A /* Frameworks */,
+				BE484AB12CEDBE110091300A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cvsCoding;
+			productName = cvsCoding;
+			productReference = BE484AB32CEDBE110091300A /* cvsCoding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE484AC32CEDBE140091300A /* cvsCodingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE484ADB2CEDBE140091300A /* Build configuration list for PBXNativeTarget "cvsCodingTests" */;
+			buildPhases = (
+				BE484AC02CEDBE140091300A /* Sources */,
+				BE484AC12CEDBE140091300A /* Frameworks */,
+				BE484AC22CEDBE140091300A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE484AC62CEDBE140091300A /* PBXTargetDependency */,
+			);
+			name = cvsCodingTests;
+			productName = cvsCodingTests;
+			productReference = BE484AC42CEDBE140091300A /* cvsCodingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE484AAB2CEDBE110091300A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BE484AB22CEDBE110091300A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					BE484AC32CEDBE140091300A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BE484AB22CEDBE110091300A;
+					};
+				};
+			};
+			buildConfigurationList = BE484AAE2CEDBE110091300A /* Build configuration list for PBXProject "cvsCoding" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE484AAA2CEDBE110091300A;
+			productRefGroup = BE484AB42CEDBE110091300A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE484AB22CEDBE110091300A /* cvsCoding */,
+				BE484AC32CEDBE140091300A /* cvsCodingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE484AB12CEDBE110091300A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE484ABE2CEDBE140091300A /* Preview Assets.xcassets in Resources */,
+				BE484ABB2CEDBE140091300A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE484AC22CEDBE140091300A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE484AAF2CEDBE110091300A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE484AF72CEDC27F0091300A /* FlickrFeed.swift in Sources */,
+				BE484B012CEE828A0091300A /* FlickrService.swift in Sources */,
+				BE484AE82CEDBFCC0091300A /* Photo.swift in Sources */,
+				BE484AED2CEDC0430091300A /* DetailView.swift in Sources */,
+				BE484AB92CEDBE110091300A /* ContentView.swift in Sources */,
+				BE484B052CEE82E30091300A /* PhotoViewModel.swift in Sources */,
+				BE484AF22CEDC2070091300A /* URLImage.swift in Sources */,
+				BE484AB72CEDBE110091300A /* cvsCodingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE484AC02CEDBE140091300A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE484AC92CEDBE140091300A /* cvsCodingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE484AC62CEDBE140091300A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE484AB22CEDBE110091300A /* cvsCoding */;
+			targetProxy = BE484AC52CEDBE140091300A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BE484AD62CEDBE140091300A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE484AD72CEDBE140091300A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE484AD92CEDBE140091300A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"cvsCoding/Preview Content\"";
+				DEVELOPMENT_TEAM = W6V7J5Z9N2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = cvsCoding/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ashton.cvsCoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE484ADA2CEDBE140091300A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"cvsCoding/Preview Content\"";
+				DEVELOPMENT_TEAM = W6V7J5Z9N2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = cvsCoding/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ashton.cvsCoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE484ADC2CEDBE140091300A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cvsCodingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ashton.cvsCodingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cvsCoding.app/cvsCoding";
+			};
+			name = Debug;
+		};
+		BE484ADD2CEDBE140091300A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cvsCodingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ashton.cvsCodingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cvsCoding.app/cvsCoding";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE484AAE2CEDBE110091300A /* Build configuration list for PBXProject "cvsCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE484AD62CEDBE140091300A /* Debug */,
+				BE484AD72CEDBE140091300A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE484AD82CEDBE140091300A /* Build configuration list for PBXNativeTarget "cvsCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE484AD92CEDBE140091300A /* Debug */,
+				BE484ADA2CEDBE140091300A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE484ADB2CEDBE140091300A /* Build configuration list for PBXNativeTarget "cvsCodingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE484ADC2CEDBE140091300A /* Debug */,
+				BE484ADD2CEDBE140091300A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE484AAB2CEDBE110091300A /* Project object */;
+}
